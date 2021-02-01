@@ -1,0 +1,74 @@
+
+h1 {
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 0.75em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 1.125em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+}
+
+nav {
+    font-size: 1.125em;
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+li {
+    padding: 0.1em 0.2em;
+}
+
+/* bold is not working properly */
+a:link { 
+    color: #98dafc;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #daad86;
+    font-weight: normal;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+    padding: 0.5em;
+}
+
+body {
+    font-family: Georgia, Cambria, 'Times New Roman', serif;
+    font-size: 100%;
+    background-color: #98dafc;
+}
+
+header, footer {
+    color: white;
+    background-color: #312c32;
+    margin: 0em 4em 0.5em 4em;
+}
+
+.byline {
+    color:lightslategray;
+    font-style: italic;
+}
+
+main {
+    background-color: white;
+    margin: 0em 4em 0.5em 4em;
+    padding: 0.5em;
+}
+
+.description-image {
+    width: 98%;
+    border:  1px solid black;
+    padding: 0.25em;
+}
