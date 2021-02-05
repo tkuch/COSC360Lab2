@@ -11,7 +11,7 @@
             <h2>Lab 2 - CSS</h2>
             <nav>
                 <ul>
-                    <li><a href="Lab2.html#description" class="test">Description</a></li>
+                    <li><a href="Lab2.html#description">Description</a></li>
                     <li><a href="Lab2.html#related-photos">Related Photos</a></li>
                     <li><a href="Lab2.html#reviews">Reviews</a></li>
                 </ul>
@@ -20,24 +20,30 @@
         <main>
             <section id="description">
                 <h3>Description</h3>
-                <p class="byline">Photo by Myriams-Fotos</p>
-                <p>This is a photo of ice crystals on a branch. The image is from <a href="https://pixabay.com">Pixabay</a> and was taken with a Canon EOS 650D camera.</p>
+                <p class="byline solid-line">Photo by Myriams-Fotos</p>
+                <p class="details">This is a photo of ice crystals on a branch. The image is from <a href="https://pixabay.com">Pixabay</a> and was taken with a Canon EOS 650D camera.</p>
                 <figure>
                     <a href="images/eiskristalle-1938842_640.jpg"><img src="images/eiskristalle-1938842_640.jpg" alt="description photo" class="description-image" /></a>
                     <figcaption class="byline"><i>Ice crystals on a branch</i></figcaption>
                 </figure>
-                <p>
-                    Share:
-                    <img src="images/social/email_16.png" alt="Email this to someone" />
-                    <img src="images/social/rss_16.png" alt="Syndicated content" />
-                    <img src="images/social/twitter_16.png" alt="Share this on Twitter" />
-                    <img src="images/social/facebook_16.png" alt="Share this on Facebook" />
-                    <img src="images/social/flickr_16.png" alt="See this on Flickr" />
-                </p>
+                <div class="share-holder">
+                    <img class="gradient-image" src="images/gray-gradient.png" />
+                    <div class="share-content">
+                        <span class="share-item"><img src="images/glyphicons-152-new-window.png" /></span>
+                        <span class="share-item">Share:</span>
+                        <span class="share-item share-icons">
+                            <img src="images/social/email_16.png" alt="Email this to someone" />
+                            <img src="images/social/rss_16.png" alt="Syndicated content" />
+                            <img src="images/social/twitter_16.png" alt="Share this on Twitter" />
+                            <img src="images/social/facebook_16.png" alt="Share this on Facebook" />
+                            <img src="images/social/flickr_16.png" alt="See this on Flickr" />
+                        </span>
+                    </div>
+                </div>
             </section>
             <section id="related-photos">
                 <h3>Related Photos</h3>
-                <div>
+                <div class="solid-line">
                     <a href="images/frost-490807_640.jpg"><img src="images/frost-490807_640.jpg" alt="related photo" height="100" /></a>
                     <a href="images/ice-crystal-64157_640.jpg"><img src="images/ice-crystal-64157_640.jpg" alt="related photo" height="100" /></a>
                     <a href="images/hoarfrost-639980_640.jpg"><img src="images/hoarfrost-639980_640.jpg" alt="related photo" height="100" /></a>
@@ -46,18 +52,17 @@
             <section id="reviews">
                 <h3>Reviews</h3>
                 <div>
-                    <p class="byline">By Bob on <time datetime="2017-01-11">January 11, 2017</time></p>
-                    <p>Those are some nice ice photos.</p>
+                    <p class="byline solid-line">By Bob on <time datetime="2017-01-11">January 11, 2017</time></p>
+                    <p class="review-comment">Those are some nice ice photos.</p>
                 </div>
-                <hr>
                 <div>
-                    <p class="byline">By Alice on <time datetime="2016-10-01">October 1, 2016</time></p>
-                    <p>Beautiful photos.</p>
+                    <p class="byline solid-line">By Alice on <time datetime="2016-10-01">October 1, 2016</time></p>
+                    <p class="review-comment">Beautiful photos.</p>
                 </div>
             </section>
         </main>
         <footer>
-            <p>
+            <p class="footer-links">
                 <a href="Lab2.html#">Home</a> | 
                 <a href="Lab2.html#">Browse</a> | 
                 <a href="Lab2.html#">Search</a>
